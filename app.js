@@ -3,4 +3,5 @@ http.createServer(function (req, res) {
         res.writeHead(200, {'Content-Type': 'text/plain'});
         res.end('etj-records soon to come!\n');
 }).listen(8124, "127.0.0.1");
+console.log('Initialization complete:');
 console.log('Server running at http://127.0.0.1:8124/');
