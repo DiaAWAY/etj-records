@@ -1,0 +1,140 @@
+/* Reset
+Based on http://meyerweb.com/eric/thoughts/2008/01/15/resetting-again/
+Removed elements not supported in HTML5
+-----------------------------------------------------------------------------*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* 
+Trigger the new block level elements in to the correct content flow
+-----------------------------------------------------------------------------*/
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* Set up document
+-----------------------------------------------------------------------------*/
+#wrapper {
+  width: auto;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(125,125,125,0.3);
+  padding: 20px;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #2d2d2d;
+  background-image: url("/images/etj-soon-splash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center-top;
+  background-size: contain;
+}
+a {
+  color: #a5a5a5;
+}
+p {
+  color: #c5c5c5;
+}
+h1 {
+  color: #a5a5a5;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+  background: #aaa;
+}
+header nav {
+  width: 100%;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  background: #d2d2d2;
+  display: inline-block;
+  padding: 5px 15px 6px;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+header nav ul li a:hover {
+  background-color: #f3f3f3;
+}
