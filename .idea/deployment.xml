@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="etj-records" uploadOnCheckin="11e3af44-e6b1-49c0-81bc-e60b5761386a">
+    <serverData>
+      <paths name="etj-records">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/etj-records" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="etj-records" />
+  </component>
+</project>
+

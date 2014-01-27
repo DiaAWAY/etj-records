@@ -81,30 +81,39 @@ section {
 /* Set up document
 -----------------------------------------------------------------------------*/
 #wrapper {
-  width: auto;
+  width: 80%;
+  padding: 20px;
+  max-width: 960px;
+  min-height: 20px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   background: rgba(125,125,125,0.3);
-  padding: 20px;
 }
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #2d2d2d;
-  background-image: url("/images/etj-soon-splash.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center-top;
-  background-size: contain;
 }
 a {
   color: #a5a5a5;
 }
 p {
   color: #c5c5c5;
+  font-size: small;
 }
 h1 {
   color: #a5a5a5;
+  font-size: large;
+}
+h2 {
+  color: #a5a5a5;
+  font-size: medium;
+}
+/* Shop
+-----------------------------------------------------------------------------*/
+#shop {
+  background: #f00;
+  width: 300px;
 }
 /* Header
 -----------------------------------------------------------------------------*/
@@ -113,21 +122,21 @@ header {
 }
 header nav {
   width: 100%;
-  text-align: right;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
+  font-size: 80%;
 }
 header nav ul {
   list-style: none;
-  padding: 10px;
+  padding: 2px;
   margin-bottom: 0;
 }
 header nav ul li {
   display: inline;
 }
 header nav ul li a {
-  background: #d2d2d2;
   display: inline-block;
   padding: 5px 15px 6px;
   color: #000;
@@ -136,5 +145,26 @@ header nav ul li a {
   cursor: pointer;
 }
 header nav ul li a:hover {
-  background-color: #f3f3f3;
+  color: #fff;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+  width: 100%;
+  padding: 20px;
+  min-height: 20px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+footer>p {
+  font-size: x-small;
+  color: #5f5f5f;
+}
+#contact {
+  padding: 20px;
+}
+#contact>p {
+  color: #d2d2d2;
 }
