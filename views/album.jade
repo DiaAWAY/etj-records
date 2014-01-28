@@ -1,0 +1,11 @@
+//
+   Created by DiaAWAY on 28/01/14.
+
+block content
+    #album
+        ul#triple
+            if albums && albums.length > 0
+                for album in albums
+                    li#album
+                        img(src='/images/albums/' + album.url)
+                        p= album.band+ ' - ' + album.title

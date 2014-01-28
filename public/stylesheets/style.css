@@ -89,6 +89,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   background: rgba(125,125,125,0.3);
+  box-shadow: 0px 2px -1px #000;
 }
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -104,6 +105,7 @@ p {
 h1 {
   color: #a5a5a5;
   font-size: large;
+  padding-bottom: 15px;
 }
 h2 {
   color: #a5a5a5;
@@ -119,6 +121,7 @@ h2 {
 -----------------------------------------------------------------------------*/
 header {
   background: #aaa;
+  box-shadow: 0px 0px 3px #000;
 }
 header nav {
   width: 100%;
@@ -158,13 +161,55 @@ footer {
   margin-right: auto;
   text-align: center;
 }
-footer>p {
+footer p {
   font-size: x-small;
   color: #5f5f5f;
 }
 #contact {
   padding: 20px;
 }
-#contact>p {
+#contact p {
   color: #d2d2d2;
+}
+#album {
+  width: 80%;
+  margin: 20px;
+  max-width: 960px;
+  min-height: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#album ul {
+  overflow: hidden;
+}
+#album li {
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  min-width: 250px;
+}
+#album img {
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(125,125,125,0.3);
+}
+#album img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#double li {
+  width: 50%;
+}
+#triple li {
+  width: 33.333%;
+}
+#quad li {
+  width: 25%;
+}
+#six li {
+  width: 16.666%;
 }
