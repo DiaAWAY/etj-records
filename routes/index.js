@@ -12,8 +12,8 @@ function Album(band, title, url) {
 var albums = [
     new Album('Container 90', 'Working Class League', 'container90_WorkingClassLeague.jpg'),
     new Album('Container 90', 'World Champion Shit', 'container90_WorldChampionShit.jpg'),
-    new Album('Front 242', 'Tyranny (For You)', 'front242_QuiteUnusual.jpg'),
-    new Album('Front 242', 'Quite Unusual', 'front242_TyrannyForYou.jpg'),
+    new Album('Front 242', 'Tyranny (For You)', 'front242_TyrannyForYou.jpg'),
+    new Album('Front 242', 'Quite Unusual',  'front242_QuiteUnusual.jpg'),
     new Album( 'Spark!', 'Hela Din Värld', 'spark_HelaDinVarld.jpg')
 ];
 
